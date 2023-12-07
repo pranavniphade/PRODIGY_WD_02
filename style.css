@@ -1,0 +1,31 @@
+body {
+    /* background-image: url(StopWatch.avif); */
+    background-color:  #077b8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #a2d5c6;
+    color:  #d72631;
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
